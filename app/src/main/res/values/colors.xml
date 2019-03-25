@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="lineColor">#B2BCB2</color>
+    <color name="lineColors">#F3F3F3</color>
+
+    <color name="white">#ffffff</color>
+    <color name="settings_title_text_color">#0B0B0B</color>
+    <color name="settings_title_bar_bg_color">#ffffff</color>
+    <color name="bg_color">#EBEBEB</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_black">#000000</color>
+
+    <color name="splash_title_text_color">#000000</color>
+    <color name="dialog_btn_cancel">#666666</color>
+    <color name="positiveTvColor">#E5183E</color>
+    <!--用于点击alertDialog的底部按钮的背景变化-->
+    <drawable name="tabNormal">#FFFFFF</drawable>
+    <drawable name="tabSelected">#E4D8CD</drawable>
+    <!--通用标题栏-->
+    <color name="common_title_bar_bottom_shadow_color">#1a000000</color>
+    <color name="common_title_bar_disable_text_color">#C2C2C2</color>
+
+    <color name="dialog_custom_bg">#F8F8F8</color>
+    <color name="tab_Selector_TextColor">#0B0B0B</color>
+    <color name="tabTextColor">#808487</color>
+
+
+</resources>

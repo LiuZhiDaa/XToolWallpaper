@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_title_bar_height"
+        android:background="@color/settings_title_bar_bg_color"
+        android:gravity="center"
+        android:text="@string/settings"
+        android:textColor="@color/settings_title_text_color"
+        android:textSize="@dimen/settings_title_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_delete_data"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_title_bar_height"
+            android:layout_marginTop="8dp"
+            android:background="@color/settings_title_bar_bg_color">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:drawableLeft="@drawable/ic_clear_cache"
+                android:drawablePadding="24dp"
+                android:gravity="center"
+                android:text="Clear the cache"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:text="100.3MB"
+                android:textColor="#999999"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+         android:id="@+id/rl_layout_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_title_bar_height"
+            android:layout_marginTop="8dp"
+            android:background="@color/settings_title_bar_bg_color">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:drawableLeft="@drawable/ic_privacy"
+                android:drawablePadding="24dp"
+                android:gravity="center"
+                android:text="Privacy"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_enter_right" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <LinearLayout
+                android:layout_width="16dp"
+                android:layout_height="1dp"
+                android:background="@color/bg_white" />
+
+            <LinearLayout
+                android:layout_width="16dp"
+                android:layout_height="1dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/bg_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_term_of_use"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_title_bar_height"
+            android:background="@color/settings_title_bar_bg_color">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:drawableLeft="@drawable/ic_term_of_us"
+                android:drawablePadding="24dp"
+                android:gravity="center"
+                android:text="Term of use"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_enter_right" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <LinearLayout
+                android:layout_width="16dp"
+                android:layout_height="1dp"
+                android:background="@color/bg_white" />
+
+            <LinearLayout
+                android:layout_width="16dp"
+                android:layout_height="1dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/bg_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_about"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_title_bar_height"
+            android:background="@color/settings_title_bar_bg_color">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:drawableLeft="@drawable/ic_about"
+                android:drawablePadding="24dp"
+                android:gravity="center"
+                android:text="About"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_enter_right" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

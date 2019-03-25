@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HD Wallpapers</string>
+    <string name="settings">Settings</string>
+    <string name="splash_text_content_name"><![CDATA[Millions of hd static & dynamic wallpapers]]></string>
+    <string name="splash_name_hd_wallpaper">Hd wallpaper</string>
+    <string name="video_wallpaper">视频壁纸</string>
+    <string name="video_description">这是视频壁纸</string>
+    <string name="Detail_SuccessWallpaper_Text">Successfully get wallpaper</string>
+    <string name="Detail_Dialog_Confirm_Btn_Text">Confirm</string>
+    <string name="Detail_SuccessWallpaper_Tips_Text">Prompt</string>
+    <string name="setting_fragment_confirm_content_text">Do you want to clear the app \n cache data?</string>
+    <string name="setting_fragment_confirm_button">Confirm</string>
+    <string name="setting_fragment_cancel_button">Cancel</string>
+    <string name="setting_fragment_clean_content_text">The cache is clean up!</string>
+    <string name="Settingfragment_no_clean">No Need Clean</string>
+    <string name="detailActivity_Using">Using</string>
+    <string name="wallpaper_using">Using</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag_position" type="id" />
+    <item name="tag_view" type="id" />
+    <item name="tag_text" type="id" />
+    <item type="id" name="tag_glide" />
+</resources>
